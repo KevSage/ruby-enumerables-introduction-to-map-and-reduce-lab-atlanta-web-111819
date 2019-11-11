@@ -57,7 +57,7 @@ def reduce_to_all_true(source_array)
     #else new_array = false
     if source_array[index] == false
       new_array == false
-      new_array
+      pp new_array
       break
     else
     new_array << source_array[index]
