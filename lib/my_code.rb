@@ -57,7 +57,6 @@ def reduce_to_all_true(source_array)
     #else new_array = false
     if source_array[index] == false || nil
       new_array == false
-    end
     else
     new_array << source_array[index]
     index += 1
