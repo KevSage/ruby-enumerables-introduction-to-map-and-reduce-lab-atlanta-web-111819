@@ -52,9 +52,7 @@ def reduce_to_all_true(source_array)
   new_array = []
   while index < source_array.length do
     return false if source_array[index] = false
-    else
-      pp source_array[index]
-      index += 1
+    index += 1
     end
   end
 end
