@@ -51,18 +51,8 @@ def reduce_to_all_true(source_array)
   index = 0
   new_array = []
   while index < source_array.length do
-    #if source_array[index] == true
-      #new_array << source_array[index]
-      #index += 1
-    #else new_array = false
-    if source_array[index] == false
-      new_array == false
-      pp new_array
-      break
-    else
-    new_array << source_array[index]
-    index += 1
-    end
+  if new_array[index] == false || nil
+    pp new_array[index]
+  else pp true
   end
-  new_array
 end
