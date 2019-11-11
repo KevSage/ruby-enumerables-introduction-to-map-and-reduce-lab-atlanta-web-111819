@@ -54,4 +54,5 @@ def reduce_to_all_true(source_array)
     return false if source_array[index] = false
     index += 1
     end
+    return true
 end
