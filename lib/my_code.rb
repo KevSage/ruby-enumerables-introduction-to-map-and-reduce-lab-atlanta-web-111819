@@ -56,6 +56,6 @@ def reduce_to_all_true(source_array)
     index += 1
   else pp true
     index += 1
-
+end
   end
 end
