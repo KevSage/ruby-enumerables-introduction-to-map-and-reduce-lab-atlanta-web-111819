@@ -56,3 +56,13 @@ def reduce_to_all_true(source_array)
     end
     return true
 end
+
+def reduce_to_any_true(source_array)
+  index = 0
+  new_array = []
+  while index < source_array.length do
+    return true if source_array[index] == true
+    index += 1
+    end
+    return false
+end
